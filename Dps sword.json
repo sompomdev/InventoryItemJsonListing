@@ -1,0 +1,54 @@
+{
+    "_id": {
+      "$oid": "61498903bc212e1aba9bbe9f"
+    },
+    "equipmentCode": "56",
+    "lifeTime": {
+      "type":"Forever"
+    },
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "value": 30,
+          "valueType": "Percentage"
+        }
+      }
+    ],
+    "qty": 80,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "Wp_2042",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Sword of DPS",
+      "fr": "Sword of DPS",
+      "es": "Sword of DPS",
+      "km": "davRBH"
+    },
+    "description": {
+      "en": "Increase global dps 30% forever.",
+      "fr": "Increase global dps 30% forever.",
+      "es": "Increase global dps 30% forever.",
+      "km": "Increase global dps 30% forever."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-21T07:25:55.046Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61498903bc212e1aba9bbe9f"
+  }

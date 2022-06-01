@@ -1,0 +1,56 @@
+{
+    "_id": {
+      "$oid": "611b915309854d4398121366"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type": "NumOfTaps",
+      "limit": 100
+    },
+    "behaviours": [
+      {
+        "type": "inc_critical_hit_ratio",
+        "gamePlayImpact": {
+          "value": 35,
+          "valueType": "Percentage"
+        }
+      }
+    ],
+    "qty": 980,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_14",
+    "costPerUnit": "2.5",
+    "title": {
+      "en": "Critical Hit",
+      "fr": "Critical Hit",
+      "es": "Critical Hit",
+      "km": "Critical Hit"
+    },
+    "description": {
+      "en": "Increase critical hit chance 35% until 100 taps.",
+      "fr": "Increase critical hit chance 35% until 100 taps.",
+      "es": "Increase critical hit chance 35% until 100 taps.",
+      "km": "Increase critical hit chance 35% until 100 taps."
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-17T10:37:07.244Z"
+    },
+    "updatedAt": {
+      "$date": "2022-02-07T07:16:13.782Z"
+    },
+    "__v": 0,
+    "id": "611b915309854d4398121366",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

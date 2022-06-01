@@ -1,0 +1,55 @@
+{
+    "_id": {
+      "$oid": "61542d72757ed335226e4f64"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type": "DurationInSeconds",
+      "limit": 50
+    },
+    "behaviours": [
+      {
+        "type": "auto_tap",
+        "gamePlayImpact": {
+          "value": 10,
+          "valueType": "NumOfTapsPerSecond"
+        }
+      }
+    ],
+    "qty": 33,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_12",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Auto Tap",
+      "fr": "Auto Tap",
+      "es": "Auto Tap",
+      "km": "Auto Tap"
+    },
+    "description": {
+      "en": "Enable auto tap 10 taps per second in 50 seconds.",
+      "fr": "Enable auto tap 10 taps per second in 50 seconds.",
+      "es": "Enable auto tap 10 taps per second in 50 seconds.",
+      "km": "Enable auto tap 10 taps per second in 50 seconds."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-29T09:10:10.186Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61542d72757ed335226e4f64"
+  }

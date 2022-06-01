@@ -1,0 +1,55 @@
+{
+    "_id": {
+      "$oid": "611cb847e886b60f91a87bf7"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type":"Forever"
+    },
+    "behaviours": [
+      {
+        "type": "inc_gold_enemy_drop",
+        "gamePlayImpact": {
+          "value": 10,
+          "valueType":"Percentage"
+        }
+      }
+    ],
+    "qty": 985,
+    "equipmentType": "gameplay",
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_13",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Unlimit Gold Earning",
+      "fr": "Unlimit Gold Earning",
+      "es": "Unlimit Gold Earning",
+      "km": "Unlimit Gold Earning"
+    },
+    "description": {
+      "en": "Increase gold drop 10% forever.",
+      "fr": "Increase gold drop 10% forever.",
+      "es": "Increase gold drop 10% forever.",
+      "km": "Increase gold drop 10% forever."
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T07:35:35.444Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cb847e886b60f91a87bf7",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

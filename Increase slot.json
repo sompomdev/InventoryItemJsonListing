@@ -1,0 +1,52 @@
+{
+    "_id": {
+      "$oid": "61371accc2908553171e1e55"
+    },
+    "equipmentCode": "",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "inc_bag_slot",
+        "gamePlayImpact": {
+          "value": 1,
+          "valueType": "NumOfSlots"
+        }
+      }
+    ],
+    "qty": 977,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "inventory_00",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Bag Slot Up",
+      "fr": "Bag Slot Up",
+      "es": "Bag Slot Up",
+      "km": "Bag Slot Up"
+    },
+    "description": {
+      "en": "Increase your inventory 1 slot now.",
+      "fr": "Increase your inventory 1 slot now.",
+      "es": "Increase your inventory 1 slot now.",
+      "km": "Increase your inventory 1 slot now."
+    },
+    "targetSelect": [
+      "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-07T07:54:52.285Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61371accc2908553171e1e55"
+  }

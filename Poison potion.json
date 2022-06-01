@@ -1,0 +1,63 @@
+{
+    "_id": {
+      "$oid": "6119d46109854d4398121335"
+    },
+    "equipmentCode": "",
+       "lifeTime": {
+        "type": "DurationInSeconds",
+        "limit": 10
+      },
+    "behaviours": [
+      {
+        "type": "poison-enemy",
+        "gamePlayImpact": {
+          "value": 50,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "poison",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 972,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2.1",
+    "title": {
+      "en": "Poison smelling",
+      "fr": "Poison smelling",
+      "es": "Poison smelling",
+      "km": "Poison smelling"
+    },
+    "description": {
+      "en": "Poison enemy hp 50% now.",
+      "fr": "Poison enemy hp 50% now.",
+      "es": "Poison enemy hp 50% now.",
+      "km": "Poison enemy hp 50% now."
+    },
+    "targetSelect": [
+      "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-16T02:58:41.632Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-31T04:29:33.930Z"
+    },
+    "__v": 0,
+    "id": "6119d46109854d4398121335",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

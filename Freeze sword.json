@@ -1,0 +1,57 @@
+{
+    "_id": {
+      "$oid": "6119d3ca09854d4398121334"
+    },
+    "equipmentCode": "3",
+    "lifeTime": {
+      "type": "NumOfTaps",
+      "limit": 200
+    },
+    "behaviours": [
+      {
+        "type": "attack_freeze",
+        "gamePlayImpact": {
+          "value": 5,
+          "valueType": "DurationInSeconds",
+          "periodValue": 10,
+          "periodType": "NumOfTaps"
+        }
+      }
+    ],
+    "qty": 930,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "sword_02",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Freeze Attack Sword",
+      "fr": "Freeze Attack Sword",
+      "es": "Freeze Attack Sword",
+      "km": "Freeze Attack Sword"
+    },
+    "description": {
+      "en": "Freeze enemy 5 seconds in 10 taps until 200 taps.",
+      "fr": "Freeze enemy 5 seconds in 10 taps until 200 taps.",
+      "es": "Freeze enemy 5 seconds in 10 taps until 200 taps.",
+      "km": "Freeze enemy 5 seconds in 10 taps until 200 taps."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-16T02:56:10.378Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-31T08:29:27.156Z"
+    },
+    "__v": 0,
+    "id": "6119d3ca09854d4398121334",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

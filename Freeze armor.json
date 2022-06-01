@@ -1,0 +1,54 @@
+{
+    "_id": {
+      "$oid": "611cbf0f51d64a106948bcae"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type":"NumOfImpacts",
+      "limit":10
+    },
+    "behaviours": [
+      {
+        "type": "cure_freeze_poison_sheep",
+        "gamePlayImpact": {
+          "cureType": "FREEZE"
+        }
+      }
+    ],
+    "qty": 983,
+    "equipmentType": "gameplay",
+    "category": "shield",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": true,
+    "iconName": "assets_0029_Group-4",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Freeze Armor",
+      "fr": "Freeze Armor",
+      "es": "Freeze Armor",
+      "km": "Freeze Armor"
+    },
+    "description": {
+      "en": "Protect from being freeze 10 times.",
+      "fr": "Protect from being freeze 10 times.",
+      "es": "Protect from being freeze 10 times.",
+      "km": "Protect from being freeze 10 times."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T08:04:31.890Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cbf0f51d64a106948bcae",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

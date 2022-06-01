@@ -1,0 +1,63 @@
+{
+  "_id": {
+    "$oid": "611a250f09854d4398121349"
+  },
+  "equipmentCode": "",
+  "lifeTime": {
+        "type": "DurationInSeconds",
+        "limit": 5
+      },
+  "behaviours": [
+    {
+      "type": "fill_mana",
+      "gamePlayImpact": {
+        "value": 40,
+        "valueType": "Percentage",
+        "visualEffectOfTargets": [
+          {
+            "effect": "water aura",
+            "targets": [
+              "hero"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "qty": 928,
+  "category": "potion",
+  "seller": "HokMok Store",
+  "color": "blue",
+  "availableForSale": true,
+  "iconName": "_weapon_potion_06",
+  "costPerUnit": "2",
+  "title": {
+    "en": "Mana Refil",
+    "fr": "Mana Refil",
+    "es": "Mana Refil",
+    "km": "Mana Refil"
+  },
+  "description": {
+    "en": "Refil mana 40% now.",
+    "fr": "Refil mana 40% now.",
+    "es": "Refil mana 40% now.",
+    "km": "Refil mana 40% now."
+  },
+  "targetSelect": [
+    "hero"
+  ],
+  "level": 1,
+  "equipmentType": "menu",
+  "createdAt": {
+    "$date": "2021-08-16T08:42:55.404Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-25T05:47:27.204Z"
+  },
+  "__v": 0,
+  "id": "611a250f09854d4398121349",
+  "gameLevel": {
+    "levelStart": -1,
+    "levelEnd": -1
+  }
+}

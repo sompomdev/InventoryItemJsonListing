@@ -1,0 +1,54 @@
+{
+    "_id": {
+      "$oid": "611cbdfe51d64a106948bcad"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type": "Forever"
+    },
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "value": 10,
+          "valueType": "Percentage"
+        }
+      }
+    ],
+    "qty": 981,
+    "equipmentType": "gameplay",
+    "category": "boots",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "assets_0012_Group-18",
+    "costPerUnit": "2",
+    "title": {
+      "en": "DPS glove",
+      "fr": "DPS glove",
+      "es": "DPS glove",
+      "km": "DPS glove"
+    },
+    "description": {
+      "en": "Increase global dps 10% forever.",
+      "fr": "Increase global dps 10% forever.",
+      "es": "Increase global dps 10% forever.",
+      "km": "Increase global dps 10% forever."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T07:59:58.004Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cbdfe51d64a106948bcad",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

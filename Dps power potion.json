@@ -1,0 +1,70 @@
+{
+    "_id": {
+      "$oid": "611a27b809854d439812134a"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type": "DurationInSeconds",
+      "limit": 50
+    },
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "value": 30,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "petale",
+              "targets": [
+                "hero"
+              ]
+            },
+            {
+              "effect": "Fire aura",
+              "targets": [
+                "hero",
+                "support"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 929,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_08",
+    "costPerUnit": "2",
+    "title": {
+      "en": "DPS Power potion",
+      "fr": "DPS Power potion",
+      "es": "DPS Power potion",
+      "km": "DPS Power potion"
+    },
+    "description": {
+      "en": "Increase global dps 30% in 50 seconds.",
+      "fr": "Increase global dps 30% in 50 seconds.",
+      "es": "Increase global dps 30% in 50 seconds.",
+      "km": "Increase global dps 30% in 50 seconds."
+    },
+    "targetSelect": [
+      "team"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-16T08:54:16.078Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-30T03:04:14.584Z"
+    },
+    "__v": 0,
+    "id": "611a27b809854d439812134a",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

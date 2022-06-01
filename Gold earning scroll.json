@@ -1,0 +1,57 @@
+{
+    "_id": {
+      "$oid": "611b8f1a09854d4398121364"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "type": "DurationInSeconds",
+      "limit": 50
+    },
+    "behaviours": [
+      {
+        "type": "inc_gold_enemy_drop",
+        "gamePlayImpact": {
+          "value": 35,
+          "valueType": "Percentage"
+        }
+      }
+    ],
+    "qty": 981,
+    "category": "scroll",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "_weapon_spell_04",
+    "costPerUnit": "2.2",
+    "title": {
+      "en": "Gold Earning Sroll",
+      "fr": "Gold Earning Sroll",
+      "es": "Gold Earning Sroll",
+      "km": "Gold Earning Sroll"
+    },
+    "description": {
+      "en": "Increase gold drop 35% in 50 seconds.",
+      "fr": "Increase gold drop 35% in 50 seconds.",
+      "es": "Increase gold drop 35% in 50 seconds.",
+      "km": "Increase gold drop 35% in 50 seconds."
+    },
+    "targetSelect": [
+      "hero",
+      "support",
+      "pet"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-17T10:27:38.114Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-30T02:45:49.597Z"
+    },
+    "__v": 0,
+    "id": "611b8f1a09854d4398121364",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }
