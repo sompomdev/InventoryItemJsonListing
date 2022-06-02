@@ -1,0 +1,56 @@
+{
+    "equipmentCode" : "",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 150
+    },
+    "behaviours" : [ 
+        {
+            "type" : "fill_hp",
+            "gamePlayImpact" : {
+                "value" : 2,
+                "valueType" : "Percentage",
+                "periodValue" : 3,
+                "periodType" : "DurationInSeconds",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    "category" : "ring",
+    "seller" : "HokMok Store",
+    "color" : "green",
+    "availableForSale" : true,
+    "iconName" : "_weapon_ring_12",
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Healing Ring Duration",
+        "fr" : "Healing Ring Duration",
+        "es" : "Healing Ring Duration",
+        "km" : "Healing Ring Duration"
+    },
+    "description" : {
+        "en" : "Increase hp active hero and support 2% in 3 seconds until 150 seconds.",
+        "fr" : "Increase hp active hero and support 2% in 3 seconds until 150 seconds.",
+        "es" : "Increase hp active hero and support 2% in 3 seconds until 150 seconds.",
+        "km" : "Increase hp active hero and support 2% in 3 seconds until 150 seconds."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    },
+    "id" : "62982e98d0128756a145bfbb"
+  }

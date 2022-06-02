@@ -1,0 +1,56 @@
+{
+    "equipmentCode" : "",
+    "lifeTime" : {
+        "type" : "NumOfImpacts",
+        "limit" : 20
+    },
+    "behaviours" : [ 
+        {
+            "type" : "fill_hp",
+            "gamePlayImpact" : {
+                "value" : 10,
+                "valueType" : "Percentage",
+                "periodValue" : 15,
+                "periodType" : "NumOfTaps",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    "category" : "shield",
+    "seller" : "HokMok Store",
+    "color" : "green",
+    "availableForSale" : true,
+    "iconName" : "SH2D_30002",
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Healing Shield Impact",
+        "fr" : "Healing Shield Impact",
+        "es" : "Healing Shield Impact",
+        "km" : "Healing Shield Impact"
+    },
+    "description" : {
+        "en" : "Increase hp active hero and support 10% in 15 taps until 20 times.",
+        "fr" : "Increase hp active hero and support 10% in 15 taps until 20 times.",
+        "es" : "Increase hp active hero and support 10% in 15 taps until 20 times.",
+        "km" : "Increase hp active hero and support 10% in 15 taps until 20 times."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    },
+    "id" : "6298366ed0128756a145c84c"
+  }

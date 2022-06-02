@@ -1,0 +1,66 @@
+{
+  "_id": {
+    "$oid": "6115fbcb09854d4398121328"
+  },
+  "equipmentCode" : "18",
+  "lifeTime" : {
+      "type" : "NumOfTaps",
+      "limit" : 200
+  },
+  "behaviours" : [ 
+      {
+          "type" : "fill_hp",
+          "gamePlayImpact" : {
+              "value" : 1,
+              "valueType" : "Percentage",
+              "periodValue" : 15,
+              "periodType" : "NumOfTaps",
+              "visualEffectOfTargets" : [ 
+                  {
+                      "effect" : "healing aura",
+                      "targets" : [ 
+                          "hero", 
+                          "support"
+                      ]
+                  }
+              ]
+          }
+      }
+  ],
+  "qty" : 934,
+  "category" : "weapon",
+  "seller" : "HokMok Store",
+  "color" : "green",
+  "availableForSale" : true,
+  "iconName" : "Wp_2001",
+  "costPerUnit" : "2",
+  "title" : {
+      "en" : "Healing Sword Taps",
+      "fr" : "Healing Sword Taps",
+      "es" : "Healing Sword Taps",
+      "km" : "Healing Sword Taps"
+  },
+  "description" : {
+      "en" : "Increase hp active hero and support 1% in 15 taps until 200 taps.",
+      "fr" : "Increase hp active hero and support 1% in 15 taps until 200 taps.",
+      "es" : "Increase hp active hero and support 1% in 15 taps until 200 taps.",
+      "km" : "Increase hp active hero and support 1% in 15 taps until 200 taps."
+  },
+  "targetSelect" : [ 
+      "hero"
+  ],
+  "level" : 1,
+  "equipmentType" : "gameplay",
+  "createdAt": {
+    "$date": "2021-08-13T04:57:47.476Z"
+  },
+  "updatedAt": {
+    "$date": "2022-05-31T02:51:46.914Z"
+  },
+  "__v": 0,
+  "id": "6115fbcb09854d4398121328",
+  "gameLevel": {
+    "levelStart": -1,
+    "levelEnd": -1
+  }
+}
