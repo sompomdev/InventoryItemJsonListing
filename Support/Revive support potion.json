@@ -1,0 +1,51 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "color": "purple",
+    "iconName": "_weapon_potion_06",
+    "lifeTime": {
+          "type": "DurationInSeconds",
+          "limit": 5
+        },
+    "modes":["Battle"],
+    "behaviours": [
+      {
+        "type": "revive_support",
+        "gamePlayImpact": {
+            "visualEffectOfTargets": [
+              {
+                "effect": "healing aura",
+                "targets": [
+                  "support"
+                ]
+              }
+            ]
+          }
+        }      
+    ],
+    "qty": 928,
+    "seller": "HokMok Store",
+    "availableForSale": true,
+    "costPerUnit": "2",
+    "title": {
+      "en": "Revive support potion",
+      "fr": "Revive support potion",
+      "es": "Revive support potion",
+      "km": "Revive support potion"
+    },
+    "description": {
+      "en": "Revive a support now.",
+      "fr": "Revive a support now.",
+      "es": "Revive a support now.",
+      "km": "Revive a support now."
+    },
+    "targetSelect": [
+      "support"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

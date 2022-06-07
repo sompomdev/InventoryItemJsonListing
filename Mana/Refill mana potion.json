@@ -1,0 +1,52 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "color": "blue",
+    "iconName": "_weapon_potion_06",
+    "lifeTime": {
+          "type": "DurationInSeconds",
+          "limit": 5
+        },
+    "behaviours": [
+      {
+        "type": "fill_mana",
+        "gamePlayImpact": {
+          "value": 100,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "water aura",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 928,
+    "seller": "HokMok Store",
+    "availableForSale": true,
+    "costPerUnit": "2",
+    "title": {
+      "en": "Refill mana potion",
+      "fr": "Refill mana potion",
+      "es": "Refill mana potion",
+      "km": "Refill mana potion"
+    },
+    "description": {
+      "en": "Refill mana 100% now.",
+      "fr": "Refill mana 100% now.",
+      "es": "Refill mana 100% now.",
+      "km": "Refill mana 100% now."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

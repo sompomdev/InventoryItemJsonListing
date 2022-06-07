@@ -1,0 +1,57 @@
+{
+
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "color": "green",
+    "iconName": "_weapon_potion_04",
+
+     "lifeTime": {
+      "type": "DurationInSeconds",
+      "limit": 5
+    },
+    "modes":["Battle"],
+    "behaviours": [
+      {
+        "type": "fill_hp",
+        "gamePlayImpact": {
+          "value": 100,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "healing aura",
+              "targets": [
+                "hero",
+                "support"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": -1,
+    "seller": "HokMok Store",
+    "availableForSale": true,
+    "costPerUnit": "1",
+    "title": {
+      "en": "Refill Hp Potion",
+      "fr": "Refill Hp Potion",
+      "es": "Refill Hp Potion",
+      "km": "Refill Hp Potion"
+    },
+    "description": {
+      "en": "Refill Hp 100% now. In battle mode.",
+      "fr": "Refill Hp 100% now. In battle mode.",
+      "es": "Refill Hp 100% now. In battle mode.",
+      "km": "Refill Hp 100% now. In battle mode."
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

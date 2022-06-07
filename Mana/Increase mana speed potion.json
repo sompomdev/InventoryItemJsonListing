@@ -1,0 +1,52 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "color": "blue",
+    "iconName": "_weapon_potion_06",
+    "lifeTime": {
+          "type": "DurationInSeconds",
+          "limit": 50
+        },
+    "behaviours": [
+      {
+        "type": "inc_mana_refill_speed",
+        "gamePlayImpact": {
+          "value": 30,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "water aura",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 928,
+    "seller": "HokMok Store",
+    "availableForSale": true,
+    "costPerUnit": "2",
+    "title": {
+      "en": "Mana potion rate++",
+      "fr": "Mana potion rate++",
+      "es": "Mana potion rate++",
+      "km": "Mana potion rate++"
+    },
+    "description": {
+      "en": "Increase mana speed generation 30%.",
+      "fr": "Increase mana speed generation 30%.",
+      "es": "Increase mana speed generation 30%.",
+      "km": "Increase mana speed generation 30%."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

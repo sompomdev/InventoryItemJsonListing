@@ -1,0 +1,53 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "lifeTime": {
+        "type": "DurationInSeconds",
+        "limit": 50
+      },
+  "behaviours": [
+    {
+      "type": "inc_hp",
+      "gamePlayImpact": {
+        "value": 100,
+        "valueType": "Percentage",
+        "visualEffectOfTargets": [
+          {
+            "effect": "healing aura",
+            "targets": [
+              "hero"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "qty": 928,
+  "seller": "HokMok Store",
+  "color": "green",
+  "availableForSale": true,
+  "iconName": "_weapon_potion_04",
+  "costPerUnit": "2",
+  "title": {
+    "en": "Potion Hp Cap++",
+    "fr": "Potion Hp Cap++",
+    "es": "Potion Hp Cap++",
+    "km": "Potion Hp Cap++"
+  },
+  "description": {
+    "en": "Increase Hp 100% in 50 seconds.",
+    "fr": "Increase Hp 100% in 50 seconds.",
+    "es": "Increase Hp 100% in 50 seconds.",
+    "km": "Increase Hp 100% in 50 seconds."
+  },
+  "targetSelect": [
+    "hero"
+  ],
+  "level": 1,
+
+  "gameLevel": {
+    "levelStart": -1,
+    "levelEnd": -1
+  }
+}

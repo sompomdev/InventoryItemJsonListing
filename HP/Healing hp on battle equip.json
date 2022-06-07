@@ -1,0 +1,56 @@
+{
+    "equipmentCode" : "",
+    "equipmentType" : "gameplay",
+    "category" : "shield",
+    "color" : "green",
+    "iconName" : "SH2D_30002",
+    "lifeTime" : {
+        "type" : "Forever"
+    },
+    "modes":["Battle"],
+    "behaviours" : [ 
+        {
+            "type" : "inc_healing_on_battle",
+            "gamePlayImpact" : {
+                "value" : 10,
+                "valueType" : "Percentage",
+                "periodValue" : 3.5,
+                "periodType" : "DurationInSeconds",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    
+    "seller" : "HokMok Store",
+    "availableForSale" : true,
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Healing Shield Battle",
+        "fr" : "Healing Shield Battle",
+        "es" : "Healing Shield Battle",
+        "km" : "Healing Shield Battle"
+    },
+    "description" : {
+        "en" : "Healing hero hp 10% per 3.5 seconds.",
+        "fr" : "Healing hero hp 10% per 3.5 seconds.",
+        "es" : "Healing hero hp 10% per 3.5 seconds.",
+        "km" : "Healing hero hp 10% per 3.5 seconds."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    }
+  }

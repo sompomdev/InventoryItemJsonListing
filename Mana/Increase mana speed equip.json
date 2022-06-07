@@ -1,0 +1,52 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "gameplay",
+    "category": "shield",
+    "color": "blue",
+    "iconName": "SH2D_30002",
+    "lifeTime": {
+          "type": "DurationInSeconds",
+          "limit": 50
+        },
+    "behaviours": [
+      {
+        "type": "inc_mana_refill_speed",
+        "gamePlayImpact": {
+          "value": 5000,
+          "valueType": "Percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "water aura",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 928,
+    "seller": "HokMok Store",
+    "availableForSale": true,
+    "costPerUnit": "2",
+    "title": {
+      "en": "Mana shield rate++",
+      "fr": "Mana shield rate++",
+      "es": "Mana shield rate++",
+      "km": "Mana shield rate++"
+    },
+    "description": {
+      "en": "Increase mana speed generation 5000%.",
+      "fr": "Increase mana speed generation 5000%.",
+      "es": "Increase mana speed generation 5000%.",
+      "km": "Increase mana speed generation 5000%."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }
