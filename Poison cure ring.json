@@ -1,7 +1,4 @@
 {
-    "_id": {
-      "$oid": "8be12e04-5117-4987-a93b-11414246ce26"
-    },
     "equipmentCode": "",
     "lifeTime": {
       "type":"NumOfImpacts",
@@ -36,14 +33,6 @@
       "hero"
     ],
     "level": 1,
-    "createdAt": {
-      "$date": "2021-08-18T08:04:31.890Z"
-    },
-    "updatedAt": {
-      "$date": "2021-12-22T10:05:53.442Z"
-    },
-    "__v": 0,
-    "id": "8be12e04-5117-4987-a93b-11414246ce26",
     "gameLevel": {
       "levelStart": -1,
       "levelEnd": -1

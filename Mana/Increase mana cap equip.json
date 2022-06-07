@@ -1,0 +1,53 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "gameplay",
+    "category": "ring",
+    "lifeTime": {
+        "type": "DurationInSeconds",
+        "limit": 100
+      },
+  "behaviours": [
+    {
+      "type": "inc_mana",
+      "gamePlayImpact": {
+        "value": 40,
+        "valueType": "Percentage",
+        "visualEffectOfTargets": [
+          {
+            "effect": "water aura",
+            "targets": [
+              "hero"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "qty": 928,
+  "seller": "HokMok Store",
+  "color": "blue",
+  "availableForSale": true,
+  "iconName": "_weapon_ring_14",
+  "costPerUnit": "2",
+  "title": {
+    "en": "Ring Mana Cap++",
+    "fr": "Ring Mana Cap++",
+    "es": "Ring Mana Cap++",
+    "km": "Ring Mana Cap++"
+  },
+  "description": {
+    "en": "Increase mana cap 40% until 100 seconds.",
+    "fr": "Increase mana cap 40% until 100 seconds.",
+    "es": "Increase mana cap 40% until 100 seconds.",
+    "km": "Increase mana cap 40% until 100 seconds."
+  },
+  "targetSelect": [
+    "hero"
+  ],
+  "level": 1,
+
+  "gameLevel": {
+    "levelStart": -1,
+    "levelEnd": -1
+  }
+}

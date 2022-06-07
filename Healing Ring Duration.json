@@ -4,11 +4,15 @@
         "type" : "DurationInSeconds",
         "limit" : 150
     },
+    "modes" : [ 
+        "Battle",
+        "Normal"
+    ],
     "behaviours" : [ 
         {
             "type" : "fill_hp",
             "gamePlayImpact" : {
-                "value" : 2,
+                "value" : 10,
                 "valueType" : "Percentage",
                 "periodValue" : 3,
                 "periodType" : "DurationInSeconds",

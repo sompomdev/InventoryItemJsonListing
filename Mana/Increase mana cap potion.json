@@ -1,0 +1,53 @@
+{
+    "equipmentCode": "",
+    "equipmentType": "menu",
+    "category": "potion",
+    "lifeTime": {
+        "type": "DurationInSeconds",
+        "limit": 50
+      },
+  "behaviours": [
+    {
+      "type": "inc_mana",
+      "gamePlayImpact": {
+        "value": 40,
+        "valueType": "Percentage",
+        "visualEffectOfTargets": [
+          {
+            "effect": "water aura",
+            "targets": [
+              "hero"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "qty": 928,
+  "seller": "HokMok Store",
+  "color": "blue",
+  "availableForSale": true,
+  "iconName": "_weapon_potion_06",
+  "costPerUnit": "2",
+  "title": {
+    "en": "Potion Mana Cap++",
+    "fr": "Potion Mana Cap++",
+    "es": "Potion Mana Cap++",
+    "km": "Potion Mana Cap++"
+  },
+  "description": {
+    "en": "Increase mana cap 40% in 50 seconds.",
+    "fr": "Increase mana cap 40% in 50 seconds.",
+    "es": "Increase mana cap 40% in 50 seconds.",
+    "km": "Increase mana cap 40% in 50 seconds."
+  },
+  "targetSelect": [
+    "hero"
+  ],
+  "level": 1,
+
+  "gameLevel": {
+    "levelStart": -1,
+    "levelEnd": -1
+  }
+}
