@@ -1,0 +1,39 @@
+{
+    "equipmentCode": "",
+    "lifeTime": {
+      "type":"OneShot"
+    },
+    "behaviours": [
+      {
+        "type": "cure_sheep"
+      }
+    ],
+    "qty": 983,
+    "equipmentType": "menu",
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_08",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Sheep cure",
+      "fr": "Sheep cure",
+      "es": "Sheep cure",
+      "km": "Sheep cure"
+    },
+    "description": {
+      "en": "Cure sheep now.",
+      "fr": "Cure sheep now.",
+      "es": "Cure sheep now.",
+      "km": "Cure sheep now."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

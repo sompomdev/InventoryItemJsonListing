@@ -1,0 +1,36 @@
+{
+    "equipmentCode": "",
+    "behaviours": [
+      {
+        "type": "cure_poison"
+      }
+    ],
+    "qty": 983,
+    "equipmentType": "menu",
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Poison cure",
+      "fr": "Poison cure",
+      "es": "Poison cure",
+      "km": "Poison cure"
+    },
+    "description": {
+      "en": "Cure poison now.",
+      "fr": "Cure poison now.",
+      "es": "Cure poison now.",
+      "km": "Cure poison now."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

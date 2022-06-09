@@ -1,0 +1,38 @@
+{
+    "equipmentCode": "",
+    "modes":["Battle"],
+    "behaviours": [
+        {
+            "type": "cure_freeze"
+        }
+    ],
+    "qty": 983,
+    "equipmentType": "menu",
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_05",
+    "costPerUnit": "2",
+    "title": {
+        "en": "Cure freeze",
+        "fr": "Cure freeze",
+        "es": "Cure freeze",
+        "km": "Cure freeze"
+    },
+    "description": {
+        "en": "Cure from being freeze now.",
+        "fr": "Cure from being freeze now.",
+        "es": "Cure from being freeze now.",
+        "km": "Cure from being freeze now."
+    },
+    "targetSelect": [
+        "hero"
+    ],
+    "level": 1,
+
+    "gameLevel": {
+        "levelStart": -1,
+        "levelEnd": -1
+    }
+}
