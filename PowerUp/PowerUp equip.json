@@ -1,0 +1,59 @@
+{
+    "equipmentCode" : "",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 150
+    },
+    "modes" : [ 
+        "Battle",
+        "Normal"
+    ],
+    "behaviours" : [ 
+        {
+            "type" : "inc_powerup_capacity",
+            "gamePlayImpact" : {
+                "value" : 100,
+                "valueType" : "Percentage",
+                "skillType" : "THUNDER_ATTACK",
+
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    "category" : "ring",
+    "seller" : "HokMok Store",
+    "color" : "green",
+    "availableForSale" : true,
+    "iconName" : "_weapon_ring_12",
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Boost powerup ring",
+        "fr" : "Boost powerup ring",
+        "es" : "Boost powerup ring",
+        "km" : "Boost powerup ring"
+    },
+    "description" : {
+        "en" : "Boost powerup.",
+        "fr" : "Boost powerup.",
+        "es" : "Boost powerup.",
+        "km" : "Boost powerup."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    }
+  }

@@ -1,12 +1,5 @@
 {
-    "_id": {
-      "$oid": "6119d46109854d4398121335"
-    },
     "equipmentCode": "",
-       "lifeTime": {
-        "type": "DurationInSeconds",
-        "limit": 10
-      },
     "behaviours": [
       {
         "type": "poison-enemy",
@@ -48,14 +41,6 @@
     ],
     "level": 1,
     "equipmentType": "menu",
-    "createdAt": {
-      "$date": "2021-08-16T02:58:41.632Z"
-    },
-    "updatedAt": {
-      "$date": "2022-05-31T04:29:33.930Z"
-    },
-    "__v": 0,
-    "id": "6119d46109854d4398121335",
     "gameLevel": {
       "levelStart": -1,
       "levelEnd": -1

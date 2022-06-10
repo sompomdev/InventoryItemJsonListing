@@ -1,0 +1,40 @@
+{
+    "equipmentCode": "",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 10
+    },
+    "behaviours" : [ 
+        {
+            "type" : "sheep-enemy"
+        }
+    ],
+    "qty": 972,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2.1",
+    "title": {
+        "en": "Sheep pot",
+        "fr": "Sheep pot",
+        "es": "Sheep pot",
+        "km": "Sheep pot"
+    },
+    "description": {
+        "en": "Sheep enemy now.",
+        "fr": "Sheep enemy now.",
+        "es": "Sheep enemy now.",
+        "km": "Sheep enemy now."
+    },
+    "targetSelect": [
+        "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "gameLevel": {
+        "levelStart": -1,
+        "levelEnd": -1
+    }
+}

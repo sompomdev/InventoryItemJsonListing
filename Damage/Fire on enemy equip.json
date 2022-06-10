@@ -1,0 +1,54 @@
+{
+    "equipmentCode": "3",
+    "lifeTime": {
+      "type": "DurationInSeconds",
+      "limit": 120
+    },
+    "behaviours": [
+      {
+        "type": "fire-enemy",
+        "gamePlayImpact": {
+          "value": 10,
+          "valueType": "Percentage",
+          "periodValue": 3,
+          "periodType": "DurationInSeconds",
+          "visualEffectOfTargets" : [ 
+            {
+                "effect" : "Fire ayra",
+                "targets" : [ 
+                    "hero"
+                ]
+            }
+        ]
+        }
+      }
+    ],
+    "qty": 930,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "sword_02",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Fire Attack Sword",
+      "fr": "Fire Attack Sword",
+      "es": "Fire Attack Sword",
+      "km": "Fire Attack Sword"
+    },
+    "description": {
+      "en": "Fire enemy 3 seconds.",
+      "fr": "Fire enemy 3 seconds.",
+      "es": "Fire enemy 3 seconds.",
+      "km": "Fire enemy 3 seconds."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

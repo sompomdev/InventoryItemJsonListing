@@ -1,0 +1,40 @@
+{
+    "equipmentCode": "",
+    "behaviours": [
+        {
+            "type": "freeze-enemy",
+            "gamePlayImpact": {
+                "value": 10,
+                "valueType": "DurationInSeconds"
+            }
+        }
+    ],
+    "qty": 972,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2.1",
+    "title": {
+        "en": "Freeze pot",
+        "fr": "Freeze pot",
+        "es": "Freeze pot",
+        "km": "Freeze pot"
+    },
+    "description": {
+        "en": "Freeze enemy now.",
+        "fr": "Freeze enemy now.",
+        "es": "Freeze enemy now.",
+        "km": "Freeze enemy now."
+    },
+    "targetSelect": [
+        "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "gameLevel": {
+        "levelStart": -1,
+        "levelEnd": -1
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "equipmentCode" : "18",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 60
+    },
+    "behaviours" : [ 
+        {
+            "type" : "inc_pet_active_time",
+            "gamePlayImpact" : {
+                "value" : 100,
+                "valueType" : "Percentage",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    "category" : "weapon",
+    "seller" : "HokMok Store",
+    "color" : "green",
+    "availableForSale" : true,
+    "iconName" : "Wp_2001",
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Pet active time",
+        "fr" : "Pet active time",
+        "es" : "Pet active time",
+        "km" : "Pet active time"
+    },
+    "description" : {
+        "en" : "Increase pet active time.",
+        "fr" : "Increase pet active time.",
+        "es" : "Increase pet active time.",
+        "km" : "Increase pet active time."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

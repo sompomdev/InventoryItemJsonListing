@@ -1,0 +1,56 @@
+{
+    "equipmentCode" : "",
+    "equipmentType" : "gameplay",
+    "category" : "shield",
+    "color" : "green",
+    "iconName" : "SH2D_30002",
+    "lifeTime" : {
+        "type" : "Forever"
+    },
+    "modes":["Battle"],
+    "behaviours" : [ 
+        {
+            "type" : "inc_healing_on_battle",
+            "gamePlayImpact" : {
+                "value" : 10,
+                "valueType" : "Percentage",
+                "periodValue" : 1,
+                "periodType" : "NumOfGotHits",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    
+    "seller" : "HokMok Store",
+    "availableForSale" : true,
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Healing when got hit",
+        "fr" : "Healing when got hit",
+        "es" : "Healing when got hit",
+        "km" : "Healing when got hit"
+    },
+    "description" : {
+        "en" : "Healing hero hp 10% per hit.",
+        "fr" : "Healing hero hp 10% per hit.",
+        "es" : "Healing hero hp 10% per hit.",
+        "km" : "Healing hero hp 10% per hit."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    }
+  }

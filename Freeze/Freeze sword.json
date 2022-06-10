@@ -1,7 +1,4 @@
 {
-    "_id": {
-      "$oid": "6119d3ca09854d4398121334"
-    },
     "equipmentCode": "3",
     "lifeTime": {
       "type": "NumOfTaps",
@@ -42,14 +39,6 @@
     ],
     "level": 1,
     "equipmentType": "gameplay",
-    "createdAt": {
-      "$date": "2021-08-16T02:56:10.378Z"
-    },
-    "updatedAt": {
-      "$date": "2022-05-31T08:29:27.156Z"
-    },
-    "__v": 0,
-    "id": "6119d3ca09854d4398121334",
     "gameLevel": {
       "levelStart": -1,
       "levelEnd": -1

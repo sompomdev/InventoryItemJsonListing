@@ -1,0 +1,46 @@
+{
+    "equipmentCode": "3",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 120
+    },
+    "behaviours" : [ 
+        {
+            "type" : "sheep-enemy",
+            "gamePlayImpact" : {
+                "value" : 5,
+                "valueType" : "DurationInSeconds",
+                "periodValue" : 10,
+                "periodType" : "NumOfTaps"
+            }
+        }
+    ],
+    "qty": 930,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "sword_02",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Sheep Attack Sword",
+      "fr": "Sheep Attack Sword",
+      "es": "Sheep Attack Sword",
+      "km": "Sheep Attack Sword"
+    },
+    "description": {
+      "en": "Sheep enemy 5 seconds in 10 taps until 200 taps.",
+      "fr": "Sheep enemy 5 seconds in 10 taps until 200 taps.",
+      "es": "Sheep enemy 5 seconds in 10 taps until 200 taps.",
+      "km": "Sheep enemy 5 seconds in 10 taps until 200 taps."
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  }

@@ -1,0 +1,55 @@
+{
+   
+    "equipmentCode": "3",
+    "lifeTime": {
+        "type": "NumOfTaps",
+        "limit": 200
+    },
+    "behaviours": [
+        {
+            "type": "inc_size_hero",
+            "gamePlayImpact": {
+                "value": 400,
+                "valueType": "Percentage"
+            }
+        },
+        {
+            "type": "attack_freeze",
+            "gamePlayImpact": {
+              "value": 5,
+              "valueType": "DurationInSeconds",
+              "periodValue": 10,
+              "periodType": "NumOfTaps"
+            }
+          }
+    ],
+    "qty": 930,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "sword_02",
+    "costPerUnit": "2",
+    "title": {
+        "en": "Hero big Sword",
+        "fr": "Hero big Sword",
+        "es": "Hero big Sword",
+        "km": "Hero big Sword"
+    },
+    "description": {
+        "en": "Increase hero size and power.",
+        "fr": "Increase hero size and power.",
+        "es": "Increase hero size and power.",
+        "km": "Increase hero size and power."
+    },
+    "targetSelect": [
+        "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+
+    "gameLevel": {
+        "levelStart": -1,
+        "levelEnd": -1
+    }
+}

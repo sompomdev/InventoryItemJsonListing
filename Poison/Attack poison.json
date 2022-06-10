@@ -1,0 +1,54 @@
+{
+    "equipmentCode" : "18",
+    "lifeTime" : {
+        "type" : "NumOfTaps",
+        "limit" : 100
+    },
+    "behaviours" : [ 
+        {
+            "type" : "attack_poison",
+            "gamePlayImpact" : {
+                "value" : 50,
+                "valueType" : "Percentage",
+                "periodValue" : 1,
+                "periodType" : "NumOfTaps",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "poison",
+                        "targets" : [ 
+                            "hero"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 972,
+    "category" : "weapon",
+    "seller" : "HokMok Store",
+    "color" : "rouge",
+    "availableForSale" : true,
+    "iconName" : "Wp_2001",
+    "costPerUnit" : "2.1",
+    "title" : {
+        "en" : "Poison smelling",
+        "fr" : "Poison smelling",
+        "es" : "Poison smelling",
+        "km" : "Poison smelling"
+    },
+    "description" : {
+        "en" : "Poison enemy hp 50% now.",
+        "fr" : "Poison enemy hp 50% now.",
+        "es" : "Poison enemy hp 50% now.",
+        "km" : "Poison enemy hp 50% now."
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    }
+}

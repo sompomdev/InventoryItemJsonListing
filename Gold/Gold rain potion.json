@@ -1,0 +1,40 @@
+{
+    "equipmentCode": "",
+    "behaviours": [
+        {
+            "type": "inc-gold-drop",
+            "gamePlayImpact": {
+                "value": 100,
+                "valueType": "Percentage"
+            }
+        }
+    ],
+    "qty": 972,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2.1",
+    "title": {
+        "en": "Gold pot",
+        "fr": "Gold pot",
+        "es": "Gold pot",
+        "km": "Gold pot"
+    },
+    "description": {
+        "en": "Gold now.",
+        "fr": "Gold now.",
+        "es": "Gold now.",
+        "km": "Gold now."
+    },
+    "targetSelect": [
+        "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "gameLevel": {
+        "levelStart": -1,
+        "levelEnd": -1
+    }
+}

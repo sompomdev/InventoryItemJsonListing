@@ -1,0 +1,57 @@
+{
+    "equipmentCode" : "",
+    "lifeTime" : {
+        "type" : "DurationInSeconds",
+        "limit" : 150
+    },
+    "modes" : [ 
+        "Battle",
+        "Normal"
+    ],
+    "behaviours" : [ 
+        {
+            "type" : "inc-speed-support",
+            "gamePlayImpact" : {
+                "value" : 50,
+                "valueType" : "Percentage",
+                "visualEffectOfTargets" : [ 
+                    {
+                        "effect" : "healing aura",
+                        "targets" : [ 
+                            "hero", 
+                            "support"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "qty" : 934,
+    "category" : "ring",
+    "seller" : "HokMok Store",
+    "color" : "green",
+    "availableForSale" : true,
+    "iconName" : "_weapon_ring_12",
+    "costPerUnit" : "2",
+    "title" : {
+        "en" : "Support speed ring",
+        "fr" : "Support speed ring",
+        "es" : "Support speed ring",
+        "km" : "Support speed ring"
+    },
+    "description" : {
+        "en" : "Support speed ring",
+        "fr" : "Support speed ring",
+        "es" : "Support speed ring",
+        "km" : "Support speed ring"
+    },
+    "targetSelect" : [ 
+        "hero"
+    ],
+    "level" : 1,
+    "equipmentType" : "gameplay",
+    "gameLevel" : {
+        "levelStart" : -1,
+        "levelEnd" : -1
+    }
+  }

@@ -1,0 +1,1115 @@
+[{
+    "_id": {
+      "$oid": "6114f35a09854d4398121317"
+    },
+    "equipmentCode": "19",
+    "lifeTime": {
+      "limitType": "COUNT",
+      "limit": 100
+    },
+    "behaviours": null,
+    "qty": 979,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": false,
+    "iconName": "Wp_2002",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Sword of purple",
+      "fr": "Sword of purple",
+      "es": "Sword of purple",
+      "km": "davRBH"
+    },
+    "description": {
+      "en": "New purple sword for cool hero",
+      "fr": "New purple sword for cool hero",
+      "es": "New purple sword for cool hero",
+      "km": "edIm,IbegáInkarsMlab;"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-12T10:09:30.062Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "6114f35a09854d4398121317",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "6115fbcb09854d4398121328"
+    },
+    "equipmentCode": "18",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 10
+    },
+    "behaviours": [
+      {
+        "type": "fill_hp",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 5,
+          "totalDurationInSecond": 10,
+          "subDurationImpactInSecond": 0,
+          "value": 50,
+          "valueType": "percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "healing aura",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 934,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "green",
+    "availableForSale": true,
+    "iconName": "Wp_2001",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Healing Sword",
+      "fr": "Healing Sword",
+      "es": "Healing Sword",
+      "km": "Healing Sword"
+    },
+    "description": {
+      "en": "Filling your hp 50% in 10 seconds",
+      "fr": "Filling your hp 50% in 10 seconds",
+      "es": "Filling your hp 50% in 10 seconds",
+      "km": "Filling your hp 50% in 10 seconds"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-13T04:57:47.476Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-31T02:51:46.914Z"
+    },
+    "__v": 0,
+    "id": "6115fbcb09854d4398121328",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "6116032d09854d439812132f"
+    },
+    "equipmentCode": "",
+    "behaviours": [
+      {
+        "type": "fill_hp",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 5,
+          "totalDurationInSecond": 10,
+          "subDurationImpactInSecond": 0,
+          "value": 50,
+          "valueType": "percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "healing aura",
+              "targets": [
+                "hero",
+                "support"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": -1,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "green",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_04",
+    "costPerUnit": "1",
+    "title": {
+      "en": "Healing Potion",
+      "fr": "Healing Potion",
+      "es": "Healing Potion",
+      "km": "Healing Potion"
+    },
+    "description": {
+      "en": "Filling your hp 50% in 10 seconds",
+      "fr": "Filling your hp 50% in 10 seconds",
+      "es": "Filling your hp 50% in 10 seconds",
+      "km": "Filling your hp 50% in 10 seconds"
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-13T05:29:17.509Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "6116032d09854d439812132f",
+    "gameLevel": {
+      "levelStart": 1,
+      "levelEnd": 10
+    },
+    "updated_by": {
+      "$oid": "618b86135a1f6f6a817bc3da"
+    }
+  },{
+    "_id": {
+      "$oid": "6119ce5209854d4398121333"
+    },
+    "equipmentCode": "1",
+    "lifeTime": {},
+    "behaviours": [],
+    "qty": 996,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": false,
+    "iconName": "sword_00",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Small Orange Sword",
+      "fr": "Small Orange Sword",
+      "es": "Small Orange Sword",
+      "km": "davRBH"
+    },
+    "description": {
+      "en": "No Break and Pretty decoration",
+      "fr": "No Break and Pretty decoration",
+      "es": "No Break and Pretty decoration",
+      "km": "edIm,IbegáInkarsMlab;"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-16T02:32:50.960Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "6119ce5209854d4398121333",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "6119d3ca09854d4398121334"
+    },
+    "equipmentCode": "3",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 60
+    },
+    "behaviours": [
+      {
+        "type": "attack_freeze",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 10,
+          "totalDurationInSecond": 60,
+          "subDurationImpactInSecond": 0
+        }
+      }
+    ],
+    "qty": 930,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "sword_02",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Freeze Attack Sword",
+      "fr": "Freeze Attack Sword",
+      "es": "Freeze Attack Sword",
+      "km": "Freeze Attack Sword"
+    },
+    "description": {
+      "en": "Boss will freeze on attack in 10s, sword life in 60s",
+      "fr": "Boss will freeze on attack in 10s, sword life in 60s",
+      "es": "Boss will freeze on attack in 10s, sword life in 60s",
+      "km": "Boss will freeze on attack in 10s, sword life in 60s"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-16T02:56:10.378Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-31T08:29:27.156Z"
+    },
+    "__v": 0,
+    "id": "6119d3ca09854d4398121334",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "6119d46109854d4398121335"
+    },
+    "equipmentCode": "",
+    "behaviours": [
+      {
+        "type": "poison-enemy",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 5,
+          "totalDurationInSecond": 60,
+          "subDurationImpactInSecond": 0,
+          "value": 10,
+          "valueType": "percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "poison",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 972,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_07",
+    "costPerUnit": "2.1",
+    "title": {
+      "en": "Poison smelling",
+      "fr": "Poison smelling",
+      "es": "Poison smelling",
+      "km": "Poison smelling"
+    },
+    "description": {
+      "en": "Make enemy poison in 60s, and dmg 10% per 5s",
+      "fr": "Make enemy poison in 60s, and dmg 10% per 5s",
+      "es": "Make enemy poison in 60s, and dmg 10% per 5s",
+      "km": "Make enemy poison in 60s, and dmg 10% per 5s"
+    },
+    "targetSelect": [
+      "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-16T02:58:41.632Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-31T04:29:33.930Z"
+    },
+    "__v": 0,
+    "id": "6119d46109854d4398121335",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611a250f09854d4398121349"
+    },
+    "equipmentCode": "",
+    "behaviours": [
+      {
+        "type": "fill_mana",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 1,
+          "totalDurationInSecond": 1,
+          "subDurationImpactInSecond": 0,
+          "value": 50,
+          "valueType": "percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "water aura",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 928,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "blue",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_06",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Mana Filter",
+      "fr": "Mana Filter",
+      "es": "Mana Filter",
+      "km": "Mana Filter"
+    },
+    "description": {
+      "en": "Filter mana in 10s by 20% per 5s",
+      "fr": "Filter mana in 10s by 20% per 5s",
+      "es": "Filter mana in 10s by 20% per 5s",
+      "km": "Filter mana in 10s by 20% per 5s"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-16T08:42:55.404Z"
+    },
+    "updatedAt": {
+      "$date": "2022-03-25T05:47:27.204Z"
+    },
+    "__v": 0,
+    "id": "611a250f09854d4398121349",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611a27b809854d439812134a"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME_IN_SECOND",
+      "limit": 60
+    },
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 60,
+          "value": 50,
+          "valueType": "percentage",
+          "visualEffectOfTargets": [
+            {
+              "effect": "petale",
+              "targets": [
+                "hero"
+              ]
+            },
+            {
+              "effect": "Fire aura",
+              "targets": [
+                "hero",
+                "support"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 929,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "_weapon_potion_08",
+    "costPerUnit": "2",
+    "title": {
+      "en": "DPS Power posion",
+      "fr": "DPS Power posion",
+      "es": "DPS Power posion",
+      "km": "DPS Power posion"
+    },
+    "description": {
+      "en": "Increase total dps by 50% in 60s",
+      "fr": "Increase total dps by 50% in 60s",
+      "es": "Increase total dps by 50% in 60s",
+      "km": "Increase total dps by 50% in 60s"
+    },
+    "targetSelect": [
+      "team"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-16T08:54:16.078Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-30T03:04:14.584Z"
+    },
+    "__v": 0,
+    "id": "611a27b809854d439812134a",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611b867609854d4398121360"
+    },
+    "equipmentCode": "",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 60,
+          "value": 50,
+          "valueType": "percentage"
+        }
+      }
+    ],
+    "qty": 995,
+    "category": "accessories",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": false,
+    "iconName": "flur_00",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Pet Increase DPS",
+      "fr": "Pet Increase DPS",
+      "es": "Pet Increase DPS",
+      "km": "Pet Increase DPS"
+    },
+    "description": {
+      "en": "Increase all 50% dps 60s",
+      "fr": "Increase all 50% dps 60s",
+      "es": "Increase all 50% dps 60s",
+      "km": "Increase all 50% dps 60s"
+    },
+    "targetSelect": [
+      "pet"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-17T09:50:46.497Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611b867609854d4398121360",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611b895f09854d4398121362"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 120
+    },
+    "behaviours": [
+      {
+        "type": "cure_freeze_poison_sheep",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 120,
+          "valueType": "FREEZE",
+          "visualEffectOfTargets": [
+            {
+              "effect": "daimond protection",
+              "targets": [
+                "hero"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "qty": 994,
+    "category": "accessories",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": false,
+    "iconName": "Flur_01",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Freeze Blocking",
+      "fr": "Freeze Blocking",
+      "es": "Freeze Blocking",
+      "km": "Freeze Blocking"
+    },
+    "description": {
+      "en": "Cure freeze from boss attack on hero",
+      "fr": "Cure freeze from boss attack on hero",
+      "es": "Cure freeze from boss attack on hero",
+      "km": "Cure freeze from boss attack on hero"
+    },
+    "targetSelect": [
+      "pet"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "createdAt": {
+      "$date": "2021-08-17T10:03:11.758Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611b895f09854d4398121362",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611b8f1a09854d4398121364"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 60
+    },
+    "behaviours": [
+      {
+        "type": "inc_gold_enemy_drop",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 60,
+          "value": 50
+        }
+      }
+    ],
+    "qty": 981,
+    "category": "scroll",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "_weapon_spell_04",
+    "costPerUnit": "2.2",
+    "title": {
+      "en": "Gold Earning Sroll",
+      "fr": "Gold Earning Sroll",
+      "es": "Gold Earning Sroll",
+      "km": "Gold Earning Sroll"
+    },
+    "description": {
+      "en": "Increase gold drop 50% in 60s",
+      "fr": "Increase gold drop 50% in 60s",
+      "es": "Increase gold drop 50% in 60s",
+      "km": "Increase gold drop 50% in 60s"
+    },
+    "targetSelect": [
+      "hero",
+      "support",
+      "pet"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-17T10:27:38.114Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-30T02:45:49.597Z"
+    },
+    "__v": 0,
+    "id": "611b8f1a09854d4398121364",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611b915309854d4398121366"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 120
+    },
+    "behaviours": [
+      {
+        "type": "inc_critical_hit_ratio",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 10,
+          "value": 50,
+          "valueType": "percentage"
+        }
+      }
+    ],
+    "qty": 980,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_14",
+    "costPerUnit": "2.5",
+    "title": {
+      "en": "Critical Hit",
+      "fr": "Critical Hit",
+      "es": "Critical Hit",
+      "km": "Critical Hit"
+    },
+    "description": {
+      "en": "Increase Critical Hit 50% in 120s",
+      "fr": "Increase Critical Hit 50% in 120s",
+      "es": "Increase Critical Hit 50% in 120s",
+      "km": "Increase Critical Hit 50% in 120s"
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "createdAt": {
+      "$date": "2021-08-17T10:37:07.244Z"
+    },
+    "updatedAt": {
+      "$date": "2022-02-07T07:16:13.782Z"
+    },
+    "__v": 0,
+    "id": "611b915309854d4398121366",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611cb847e886b60f91a87bf7"
+    },
+    "equipmentCode": "",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "inc_gold_enemy_drop",
+        "gamePlayImpact": {
+          "value": 50
+        }
+      }
+    ],
+    "qty": 985,
+    "equipmentType": "gameplay",
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_13",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Unlimit Gold Earning",
+      "fr": "Unlimit Gold Earning",
+      "es": "Unlimit Gold Earning",
+      "km": "Unlimit Gold Earning"
+    },
+    "description": {
+      "en": "Increase gold drop 50%",
+      "fr": "Increase gold drop 50%",
+      "es": "Increase gold drop 50%",
+      "km": "Increase gold drop 50%"
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T07:35:35.444Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cb847e886b60f91a87bf7",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611cbdfe51d64a106948bcad"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 120
+    },
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "value": 50,
+          "valueType": "percentage"
+        }
+      }
+    ],
+    "qty": 981,
+    "equipmentType": "gameplay",
+    "category": "boots",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "assets_0012_Group-18",
+    "costPerUnit": "2",
+    "title": {
+      "en": "DPS glove",
+      "fr": "DPS glove",
+      "es": "DPS glove",
+      "km": "DPS glove"
+    },
+    "description": {
+      "en": "Increase total dps by 50% in 120s",
+      "fr": "Increase total dps by 50% in 120s",
+      "es": "Increase total dps by 50% in 120s",
+      "km": "Increase total dps by 50% in 120s"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T07:59:58.004Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cbdfe51d64a106948bcad",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "611cbf0f51d64a106948bcae"
+    },
+    "equipmentCode": "",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "cure_freeze_poison_sheep",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 120,
+          "valueType": "FREEZE"
+        }
+      }
+    ],
+    "qty": 983,
+    "equipmentType": "gameplay",
+    "category": "shield",
+    "seller": "HokMok Store",
+    "color": "purple",
+    "availableForSale": true,
+    "iconName": "assets_0029_Group-4",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Freeze Armor",
+      "fr": "Freeze Armor",
+      "es": "Freeze Armor",
+      "km": "Freeze Armor"
+    },
+    "description": {
+      "en": "Cure freeze from boss attack on hero",
+      "fr": "Cure freeze from boss attack on hero",
+      "es": "Cure freeze from boss attack on hero",
+      "km": "Cure freeze from boss attack on hero"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "createdAt": {
+      "$date": "2021-08-18T08:04:31.890Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "611cbf0f51d64a106948bcae",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    }
+  },{
+    "_id": {
+      "$oid": "61371accc2908553171e1e55"
+    },
+    "equipmentCode": "",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "inc_bag_slot",
+        "gamePlayImpact": {
+          "value": 5
+        }
+      }
+    ],
+    "qty": 977,
+    "category": "potion",
+    "seller": "HokMok Store",
+    "color": "brown",
+    "availableForSale": true,
+    "iconName": "inventory_00",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Bag Slot Up",
+      "fr": "Bag Slot Up",
+      "es": "Bag Slot Up",
+      "km": "Bag Slot Up"
+    },
+    "description": {
+      "en": "Increase 5 Bag Slots",
+      "fr": "Increase 5 Bag Slots",
+      "es": "Increase 5 Bag Slots",
+      "km": "Increase 5 Bag Slots"
+    },
+    "targetSelect": [
+      "menu"
+    ],
+    "level": 1,
+    "equipmentType": "menu",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-07T07:54:52.285Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61371accc2908553171e1e55"
+  },{
+    "_id": {
+      "$oid": "61498903bc212e1aba9bbe9f"
+    },
+    "equipmentCode": "56",
+    "lifeTime": {},
+    "behaviours": [
+      {
+        "type": "inc_dps",
+        "gamePlayImpact": {
+          "value": 50,
+          "valueType": "percentage"
+        }
+      }
+    ],
+    "qty": 80,
+    "category": "weapon",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "Wp_2042",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Sword of DPS",
+      "fr": "Sword of DPS",
+      "es": "Sword of DPS",
+      "km": "davRBH"
+    },
+    "description": {
+      "en": "Increase total DPS in 50% and never broken",
+      "fr": "Increase total DPS in 50% and never broken",
+      "es": "Increase total DPS in 50% and never broken",
+      "km": "edIm,IbegáInkarsMlab;"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-21T07:25:55.046Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61498903bc212e1aba9bbe9f"
+  },{
+    "_id": {
+      "$oid": "61542d72757ed335226e4f64"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME_IN_SECOND",
+      "limit": 600
+    },
+    "behaviours": [
+      {
+        "type": "auto_tap",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 600,
+          "valueType": "duration"
+        }
+      }
+    ],
+    "qty": 33,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_12",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Auto Tap",
+      "fr": "Auto Tap",
+      "es": "Auto Tap",
+      "km": "Auto Tap"
+    },
+    "description": {
+      "en": "Auto Tap 10 minutes",
+      "fr": "Auto Tap 10 minutes",
+      "es": "Auto Tap 10 minutes",
+      "km": "Auto Tap 10 minutes"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-29T09:10:10.186Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "61542d72757ed335226e4f64"
+  },{
+    "_id": {
+      "$oid": "6154392e757ed335226e4f7b"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME_IN_SECOND",
+      "limit": 600
+    },
+    "behaviours": [
+      {
+        "type": "holding_tap",
+        "gamePlayImpact": {
+          "totalDurationInSecond": 600,
+          "valueType": "duration"
+        }
+      }
+    ],
+    "qty": 86,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "rouge",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_11",
+    "costPerUnit": "2",
+    "title": {
+      "en": "Holding Tap",
+      "fr": "Holding Tap",
+      "es": "Holding Tap",
+      "km": "Holding Tap"
+    },
+    "description": {
+      "en": "Holding Tap 10 minutes",
+      "fr": "Holding Tap 10 minutes",
+      "es": "Holding Tap 10 minutes",
+      "km": "Holding Tap 10 minutes"
+    },
+    "targetSelect": [
+      "hero"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-09-29T10:00:14.082Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-22T10:05:53.442Z"
+    },
+    "__v": 0,
+    "id": "6154392e757ed335226e4f7b"
+  },{
+    "_id": {
+      "$oid": "615acbebe588c9389c25e83a"
+    },
+    "equipmentCode": "",
+    "lifeTime": {
+      "limitType": "TIME",
+      "limit": 60
+    },
+    "behaviours": [
+      {
+        "type": "inc_critical_hit_ratio",
+        "gamePlayImpact": {
+          "timeOfImpactInDuration": 10,
+          "value": 50,
+          "valueType": "percentage"
+        }
+      }
+    ],
+    "qty": 989,
+    "category": "ring",
+    "seller": "HokMok Store",
+    "color": "orange",
+    "availableForSale": true,
+    "iconName": "_weapon_ring_14",
+    "costPerUnit": "1.5",
+    "title": {
+      "en": "Critical 60s Hit",
+      "fr": "Critical 60s Hit",
+      "es": "Critical 60s Hit",
+      "km": "Critical 60s Hit"
+    },
+    "description": {
+      "en": "Increase Critical Hit 50% in 60s",
+      "fr": "Increase Critical Hit 50% in 60s",
+      "es": "Increase Critical Hit 50% in 60s",
+      "km": "Increase Critical Hit 50% in 60s"
+    },
+    "targetSelect": [
+      "hero",
+      "support"
+    ],
+    "level": 1,
+    "equipmentType": "gameplay",
+    "gameLevel": {
+      "levelStart": -1,
+      "levelEnd": -1
+    },
+    "createdAt": {
+      "$date": "2021-10-04T09:39:55.579Z"
+    },
+    "updatedAt": {
+      "$date": "2022-05-30T02:56:23.328Z"
+    },
+    "__v": 0,
+    "id": "615acbebe588c9389c25e83a"
+  }]
