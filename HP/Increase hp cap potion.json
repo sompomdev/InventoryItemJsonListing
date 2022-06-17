@@ -42,7 +42,7 @@
     "km": "Increase Hp 100% in 50 seconds."
   },
   "targetSelect": [
-    "hero"
+    "team"
   ],
   "level": 1,
 

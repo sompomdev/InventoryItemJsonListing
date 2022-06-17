@@ -42,7 +42,7 @@
     "km": "Increase mana cap 40% in 50 seconds."
   },
   "targetSelect": [
-    "hero"
+    "team"
   ],
   "level": 1,
 

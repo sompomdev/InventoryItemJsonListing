@@ -42,7 +42,7 @@
       "km": "Increase mana speed generation 30%."
     },
     "targetSelect": [
-      "hero"
+      "team"
     ],
     "level": 1,
     "gameLevel": {
