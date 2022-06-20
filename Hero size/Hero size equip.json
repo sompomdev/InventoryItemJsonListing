@@ -9,7 +9,7 @@
         {
             "type": "inc_size_hero",
             "gamePlayImpact": {
-                "value": 400,
+                "value": 100,
                 "valueType": "Percentage"
             }
         },
